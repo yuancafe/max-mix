@@ -19,6 +19,19 @@ Recommended semantic style:
   - `plan -> run` workflow for generation skills
   - direct-first flow for `max-search` and `max-vision`
 
+
+## Model Matrix (v0.1.0)
+
+- `MiniMax-M*` -> `max-text-chat`
+- `speech-hd` -> `max-tts`
+- `MiniMax-Hailuo-2.3-6s-768p`, `MiniMax-Hailuo-2.3-Fast-6s-768p` -> `max-video-gen`
+- `music-2.5`, `music-2.6`, `lyrics_generation` -> `max-music-gen`
+- `music-cover` -> `max-music-cover`
+- `image-01` -> `max-image-gen`
+- `coding-plan-vlm` -> `max-vision`
+- `coding-plan-search` -> `max-search`
+- Voice cloning APIs -> `max-voice-clone`
+
 ## Release Checklist
 
 1. Run dependency checks
@@ -94,6 +107,19 @@ git push && git push --tags
   - 生成类技能支持 `plan -> run`
   - `max-search` / `max-vision` 默认直连调用
 
+
+## 模型映射（v0.1.0）
+
+- `MiniMax-M*` -> `max-text-chat`
+- `speech-hd` -> `max-tts`
+- `MiniMax-Hailuo-2.3-6s-768p`、`MiniMax-Hailuo-2.3-Fast-6s-768p` -> `max-video-gen`
+- `music-2.5`、`music-2.6`、`lyrics_generation` -> `max-music-gen`
+- `music-cover` -> `max-music-cover`
+- `image-01` -> `max-image-gen`
+- `coding-plan-vlm` -> `max-vision`
+- `coding-plan-search` -> `max-search`
+- 音色复刻 API -> `max-voice-clone`
+
 ## 发布检查清单
 
 1. 依赖检查
@@ -147,3 +173,9 @@ git push && git push --tags
   - max-vision
   - max-text-chat
 - 新增双语文档
+
+
+## License | 开源协议
+
+MIT License (see `LICENSE`).
+

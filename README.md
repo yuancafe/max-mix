@@ -66,6 +66,24 @@ python3 skills/max-vision/scripts/max_vision.py --image ./shot.png --prompt "Ext
 
 ---
 
+
+## Model Coverage | 模型覆盖
+
+EN: This skill pack is built on MiniMax Token Plan model families via `mmx` and MiniMax APIs.  
+中文：本技能包基于 MiniMax Token Plan 模型族（通过 `mmx` 与官方 API 调用）。
+
+| Skill | MiniMax model / capability |
+|---|---|
+| `max-text-chat` | `MiniMax-M*` (e.g. `MiniMax-M2.7-highspeed`) |
+| `max-tts` | `speech-hd` (e.g. `speech-2.8-hd`) |
+| `max-video-gen` | `MiniMax-Hailuo-2.3-6s-768p`, `MiniMax-Hailuo-2.3-Fast-6s-768p` |
+| `max-music-gen` | `music-2.5`, `music-2.6`, `lyrics_generation` |
+| `max-music-cover` | `music-cover` |
+| `max-image-gen` | `image-01` |
+| `max-vision` | `coding-plan-vlm` |
+| `max-search` | `coding-plan-search` |
+| `max-voice-clone` | MiniMax voice cloning APIs (runtime entitlement required) |
+
 ## 5) Docs | 文档
 
 - See [`QUICKSTART.md`](./QUICKSTART.md) for a 5-minute start guide.
@@ -91,3 +109,15 @@ max-mix/
 
 EN: Do not commit personal credentials or local secrets.  
 中文：请勿提交个人凭据或本地密钥文件。
+
+
+## License | 开源协议
+
+This project is licensed under the MIT License. See [`LICENSE`](./LICENSE).  
+本项目使用 MIT 协议，详见 [`LICENSE`](./LICENSE)。
+
+
+## Trademark Notice | 商标声明
+
+MiniMax™ is a trademark of its respective owner. This repository is an independent community packaging project and is not an official MiniMax release.  
+MiniMax™ 为其权利人商标。本仓库为社区独立封装项目，并非 MiniMax 官方发布。
